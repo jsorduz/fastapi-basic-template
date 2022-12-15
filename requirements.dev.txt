@@ -1,0 +1,10 @@
+-r requirements.txt
+
+black>=22.10.0,<22.11
+isort>=5.10.1,<5.11
+flake8>=4.0.1,<4.1
+wemake-python-styleguide>=0.17.0,<0.18
+mypy==0.982
+pylint>=2.15.8,<2.16
+pytest-cov>=4.0.0,<4.1
+httpx>=0.23.1,<0.24

@@ -1,0 +1,12 @@
+import enum
+
+
+class PermissionCode(int, enum.Enum):
+    CREATE_USER = 101
+    READ_USER = 102
+    UPDATE_USER = 103
+    DELETE_USER = 104
+    CREATE_PERMISSION = 111
+    READ_PERMISSION = 112
+    UPDATE_PERMISSION = 113
+    DELETE_PERMISSION = 114

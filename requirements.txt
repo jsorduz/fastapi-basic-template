@@ -1,0 +1,4 @@
+fastapi>=0.88.0,<0.89
+SQLAlchemy>=1.4.45,<1.5
+passlib[bcrypt]>=1.7.4,<1.8
+email-validator>=1.3.0,<1.4
